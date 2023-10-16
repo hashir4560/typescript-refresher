@@ -35,3 +35,31 @@ var hashir = {
 };
 hashir.age = 90;
 console.log(hashir);
+//we can change the objects but with all the properties with same type but can have different values
+//Explicit Types
+var char;
+var ages;
+var isLoggedIn;
+//age="alldax"
+age = 30;
+isLoggedIn = true;
+//Arrays
+var ninjas = [];
+ninjas.push("saaB");
+//Union
+var mixedArray = [];
+mixedArray.push("hello");
+mixedArray.push(34);
+mixedArray.push(false);
+console.log(mixedArray);
+var uid;
+uid = "1233";
+uid = 98878;
+console.log(uid);
+//Obbjects
+var strk;
+strk = ({ name: 'yoshu', age: 30 });
+strk = [];
+var strk2;
+strk2 = { name: "mario", age: 20, beltColour: "blue" };
+console.log(strk2);

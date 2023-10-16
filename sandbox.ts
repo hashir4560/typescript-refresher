@@ -53,4 +53,48 @@ let hashir={
 hashir.age=90;
 
 console.log(hashir)
+//we can change the objects but with all the properties with same type but can have different values
 
+
+//Explicit Types
+let char:string;
+let ages:number;
+let isLoggedIn:boolean;
+
+//age="alldax"
+age=30;
+
+isLoggedIn=true;
+
+//Arrays
+let ninjas:string [ ]=[ ];
+ninjas.push("saaB")
+
+
+//Union
+let mixedArray:(string|number|boolean)[]=[]
+mixedArray.push("hello")
+mixedArray.push(34)
+mixedArray.push(false);
+console.log(mixedArray);
+
+let uid:string|number;
+uid="1233"
+uid=98878;
+console.log(uid);
+
+
+//Obbjects
+let strk:object;
+strk=({name:'yoshu',age:30})
+strk=[]
+
+
+let strk2:{
+    name:string,
+    age:number,
+    beltColour:string
+
+}
+strk2={name:"mario",age:20,beltColour:"blue"}
+console.log(strk2);
